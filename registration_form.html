@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta>
+	<title>Registration Form</title>
+	<style>
+		body {
+			font-family: ssans-serif;
+			background-color: #f3f3f3;
+			margin: 1;
+			padding: 0;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			height: 50vh;
+		}
+		form {
+			background-color: #fff;
+			padding: 30px;
+			border-radius: 10px;
+			box-shadow: 0 0 8px rgba(0, 0, 0, 1.0);
+		}
+		label {
+			display: inline-block;
+			margin-bottom: 8px;
+		}
+		button {
+			background-color: #4caf80;
+			color: #fff;
+			padding: 10px;
+			border: black;
+			border-radius: 50px;
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h2>REGISTRATION FORM</h2>
+
+		<label for="username">Username:</label>
+		<input type="text" name="Username" id="username" required><br><br>
+
+		<label for="mail">Email:</label>
+		<input type="text" name="Email" id="mail" required><br><br>
+
+		<label for="mobile">Mobile Number:</label>
+		<input type="number" name="Mobile Number" id="mobile" required><br><br>
+
+		<label for="birthday">Date Of Birth:</label>
+		<input type="date" name="Date Of Birth" id="birthday" required><br><br>
+
+		<label for="pwd">Password:</label>
+		<input type="Password" name="Password" id="pwd" required><br><br>
+
+		<button>Submit</button>
+	</form>
+</body>
+</html>
